@@ -21,10 +21,10 @@ h1,h2,h3,h4,h5,h6{
 }
 
 header{
-    border-bottom: 0.3em solid orange;
-    margin-bottom: 0.3em;
+    margin-bottom: 0em;
+    margin-top: 0.3em;
     display: flex;
-    margin: 1.2em;
+    margin: 0em;
     padding: 1.2em;
     justify-content: space-between;
 }
@@ -64,15 +64,14 @@ header i{
     align-content: space-around;
     flex: 1 1 auto;
     padding: 1.2em;
-    border-bottom: 0.001em solid #898989;
 }
 
 .top a{
     text-decoration: none;
     padding: 0.5em;
     margin-top: 1em;
-    color: orange;
-    border: 0.1em solid orange;
+    color: #f56a6a;
+    border: 0.1em solid #f56a6a;
     border-radius: 0.8em;
     width: 40%;
     text-align: center;
@@ -80,7 +79,7 @@ header i{
 
 .top a:hover{
     color: #ffffff;
-    background-color: orange;
+    background-color: #f56a6a;
 }
 
 .imagetop{
@@ -135,16 +134,45 @@ header i{
 .section1 i{
     font-size: 3em;
     padding: 1em;
-    color:  orange;
+    color:  #f56a6a;
 }
 
 .opcion{
     display: flex;
+    margin-top: 0.4em;
+    padding-top: 0.3em
+}
+
+.divisor1{
+    display: block;
+    height: 0.2em;
+    border: 0;
+    border-top: 0.35em solid #f56a6a;
+    margin: 0em;
+    padding: 0;
+}
+
+.divisor2{
+    display: block;
+    height: 0.2em;
+    border: 0;
+    border-top: 0.01em solid #898989;
+    margin: 0em;
+    padding: 0;
+}
+
+.divisor3{
+    display: block;
+    height: 0.2em;
+    border: 0;
+    border-top: 0.25em solid #f56a6a;
+    margin: 0em;
+    padding: 0;
+    width: 30%;
 }
 
 .titulo2{
     display: inline-block;
-    border-bottom: 0.18em solid  orange;
-    padding-bottom: 0.5em;
-    margin-bottom: 0.6em;
+    padding-bottom: 0em;
+    margin-bottom: 0em;
 }
