@@ -1,15 +1,20 @@
 *{
-    margin: 0 0;
-    padding: 0 0;
-    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto','sans-serif';
     box-sizing:border-box;
     line-height: 1.4em;
+}
+
+.resume{
+    margin: 1.3em 0em 1.5em 0em;
+    text-transform: uppercase;
 }
 
 .contenedor{
     width: 94%;
     margin: 0 auto;
-    box-shadow: #898989 3 px 5px 15px;
+    box-shadow: #898989 3px 5px 15px;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -29,13 +34,13 @@ header{
     display: inline;
 }
 
-p{
+p,span{
     font-family: 'Roboto', sans-serif;
     color: #7f888f;
 }
 
 .iconos {
-    float: right;
+    text-align: right;
 }
 
 header .iconos ul{
@@ -44,7 +49,9 @@ header .iconos ul{
 
 header .iconos ul li{
     display: inline;
+    padding: 0.8em;
 }
+
 header i{
     color: #898989;
 }
@@ -56,34 +63,87 @@ header i{
     align-items: center;
     align-content: space-around;
     flex: 1 1 auto;
-    padding: 1em;
+    padding: 1.2em;
 }
-.miniNoticia a{
-    margin: 4em 0em;
+
+.top a{
     text-decoration: none;
     padding: 0.5em;
+    margin-top: 1em;
     color: orange;
     border: 0.1em solid orange;
     border-radius: 0.8em;
-    width: 50%;
+    width: 40%;
     text-align: center;
 }
+
+.top a:hover{
+    color: #ffffff;
+    background-color: orange;
+}
+
 .imagetop{
     padding: 0.5em;
 }
-img{
+.imagetop img{
     display: block;
+    width: 80%;
     margin: auto;
-    width: 30%;
-    height: 30%;
+    height: 80%;
     border-radius: 8px;
     overflow: hidden;
     object-fit: cover;
 }
 
 .miniNoticia{
+    margin: 1.5em;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 50%;
+}
+.imagetop img{
+    display: block;
+    width: 80%;
+    margin: auto;
+    height: 80%;
+    border-radius: 8px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.miniNoticia{
+    margin: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.bottom{
+    padding: 1em;
+}
+
+.section1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr;
+    gap: 2em;
+}
+
+.section1 i{
+    font-size: 3em;
+    padding: 1em;
+    color:  orange;
+}
+
+.opcion{
+    display: flex;
+}
+
+.titulo2{
+    display: inline-block;
+    border-bottom: 0.18em solid  orange;
+    padding-bottom: 0.5em;
+    margin-bottom: 0.6em;
 }
