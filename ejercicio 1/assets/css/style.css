@@ -14,7 +14,6 @@
 .contenedor{
     width: 94%;
     margin: 0 auto;
-    box-shadow: #898989 3px 5px 15px;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -22,7 +21,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 header{
-    border-bottom: 0.1em solid orange;
+    border-bottom: 0.3em solid orange;
     margin-bottom: 0.3em;
     display: flex;
     margin: 1.2em;
@@ -57,6 +56,7 @@ header i{
 }
 
 .top{
+    margin: 0.3em;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -64,6 +64,7 @@ header i{
     align-content: space-around;
     flex: 1 1 auto;
     padding: 1.2em;
+    border-bottom: 0.001em solid #898989;
 }
 
 .top a{
@@ -100,7 +101,7 @@ header i{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 50%;
+    width: 100%;
 }
 .imagetop img{
     display: block;
